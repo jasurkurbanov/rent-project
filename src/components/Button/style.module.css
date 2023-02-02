@@ -1,0 +1,52 @@
+.default {
+  display: flex;
+  align-items: center;
+  padding: 9px 16px;
+  border-radius: 4px;
+  color: var(--color-white-regular);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-xs);
+  border: 1px solid;
+}
+
+.default span:nth-child(1) i {
+  font-size: var(--font-size-sm);
+}
+
+.default span:nth-child(2) {
+  margin: 0 8px;
+}
+
+.default span:nth-child(3) i {
+  font-size: var(--font-size-xs);
+}
+
+.default:enabled {
+  background-color: var(--color-primary-df-500);
+}
+
+.default:hover {
+  background-color: var(--color-primary-lg-400);
+  cursor: pointer;
+}
+
+.default:active {
+  background-color: var(--color-primary-dk-700);
+}
+
+.default:focus-visible {
+  background-color: var(--color-primary-df-500);
+  border: 1px solid #cebefe;
+}
+
+.default:disabled {
+  background-color: var(--color-primary-lg-300);
+}
+
+.hide {
+  display: none;
+}
+
+.display {
+  display: block;
+}

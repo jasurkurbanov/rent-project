@@ -1,0 +1,86 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+:root {
+  /*colors*/
+  --color-white-regular: #fff;
+  --color-primary-lg-100: #d6e4fd;
+  --color-primary-lg-200: #aec8fc;
+  --color-primary-lg-300: #85a8f8;
+  --color-primary-lg-400: #658df1;
+  --color-primary-df-500: #3563e9;
+  --color-primary-dk-600: #264bc8;
+  --color-primary-dk-700: #1a37a7;
+  --color-primary-dk-800: #102587;
+  --color-primary-dk-900: #0a196f;
+
+  --color-success-lg-100: #f5fcd2;
+  --color-success-lg-200: #e8faa6;
+  --color-success-lg-300: #d3f178;
+  --color-success-lg-400: #bce455;
+  --color-success-df-500: #9cd323;
+  --color-success-dk-600: #7fb519;
+  --color-success-dk-700: #659711;
+  --color-success-dk-800: #4c7a0b;
+  --color-success-dk-900: #3b6506;
+
+  --color-error-lg-100: #ffe7d3;
+  --color-error-lg-200: #ffc8a6;
+  --color-error-lg-300: #ffa37a;
+  --color-error-lg-400: #ff7f59;
+  --color-error-df-500: #ff4423;
+  --color-error-dk-600: #db2719;
+  --color-error-dk-700: #b71112;
+  --color-error-dk-800: #930b16;
+  --color-error-dk-900: #7a0619;
+
+  --color-warning-lg-100: #fff8d7;
+  --color-warning-lg-200: #ffefb0;
+  --color-warning-lg-300: #ffe488;
+  --color-warning-lg-400: #ffd96b;
+  --color-warning-df-500: #ffc73a;
+  --color-warning-dk-600: #dba32a;
+  --color-warning-dk-700: #b7821d;
+  --color-warning-dk-800: #936312;
+  --color-warning-dk-900: #7a4d0b;
+
+  --color-information-lg-100: #dcf3ff;
+  --color-information-lg-200: #bae5ff;
+  --color-information-lg-300: #98d3ff;
+  --color-information-lg-400: #7ec2ff;
+  --color-information-df-500: #54a6ff;
+  --color-information-dk-600: #3d81db;
+  --color-information-dk-700: #2a60b7;
+  --color-information-dk-800: #1a4393;
+  --color-information-dk-900: #102e7a;
+
+  --color-secondary-lg-100: #e0e9f4;
+  --color-secondary-lg-200: #c3d4e9;
+  --color-secondary-lg-300: #90a3bf;
+  --color-secondary-lg-400: #596780;
+  --color-secondary-df-500: #1a202c;
+  --color-secondary-dk-600: #131825;
+  --color-secondary-dk-700: #0d121f;
+  --color-secondary-dk-800: #080c19;
+  --color-secondary-dk-900: #040815;
+
+  /*font styles*/
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xlg: 20px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 32px;
+  --font-size-3xl: 36px;
+  --font-size-4xl: 40px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 50px;
+}
